@@ -30,18 +30,19 @@ const Navbar = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/80 backdrop-blur-lg border-b border-border" : "bg-transparent"
+        scrolled
+          ? "bg-background/80 backdrop-blur-lg border-b border-border"
+          : "bg-transparent"
       }`}
     >
-      <div className="container max-w-6xl px-6 flex items-center justify-between h-16">
+      <div className="container max-w-6xl px-6 flex items-center justify-between h-20">
         {/* Logo */}
-        <a
-          href="#"
-          onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-          className="flex items-center gap-2 group"
-        >
-          <span className="text-primary font-bold text-xl tracking-tight">ada</span>
-          <span className="font-bold text-xl tracking-tight text-foreground">gen</span>
+        <a href="/">
+          <img
+            src="./logo-adagen.png"
+            alt="Adagen"
+            className="w-48 h-auto object-contain"
+          />
         </a>
 
         {/* Desktop nav */}
@@ -63,7 +64,11 @@ const Navbar = () => {
           className="md:hidden text-foreground p-1"
           aria-label="Menu"
         >
-          {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          {mobileOpen ? (
+            <X className="w-5 h-5" />
+          ) : (
+            <Menu className="w-5 h-5" />
+          )}
         </button>
       </div>
 

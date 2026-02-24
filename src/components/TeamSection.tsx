@@ -1,18 +1,20 @@
 import { motion } from "framer-motion";
-import teamMateus from "@/assets/team-mateus.jpg";
-import teamAlini from "@/assets/team-alini.jpg";
+import teamMateus from "@/assets/team-mateus-green.png";
+import teamAlini from "@/assets/team-alini.jpeg";
 
 const team = [
   {
     name: "Mateus Paulart",
     role: "Desenvolvedor",
-    description: "Especialista em desenvolvimento web com foco em performance, arquitetura escalável e experiências modernas.",
+    description:
+      "Especialista em desenvolvimento web com foco em performance, arquitetura escalável e experiências modernas.",
     image: teamMateus,
   },
   {
     name: "Alini Ross",
     role: "Gestão e Organização",
-    description: "Responsável pela gestão estratégica, organização de processos e alinhamento de projetos.",
+    description:
+      "Responsável pela gestão estratégica, organização de processos e alinhamento de projetos.",
     image: teamAlini,
   },
 ];
@@ -28,7 +30,9 @@ const TeamSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <p className="text-primary font-medium tracking-widest uppercase text-sm mb-3">Equipe</p>
+          <p className="text-primary font-medium tracking-widest uppercase text-sm mb-3">
+            Equipe
+          </p>
           <h2 className="text-3xl md:text-4xl font-bold">Quem faz acontecer</h2>
         </motion.div>
 
@@ -51,8 +55,12 @@ const TeamSection = () => {
                 />
               </div>
               <h3 className="text-xl font-semibold">{member.name}</h3>
-              <p className="text-primary text-sm font-medium mt-1 mb-3">{member.role}</p>
-              <p className="text-muted-foreground leading-relaxed text-sm">{member.description}</p>
+              <p className="text-primary text-sm font-medium mt-1 mb-3">
+                {member.role}
+              </p>
+              <p className="text-muted-foreground leading-relaxed text-sm">
+                {member.description}
+              </p>
             </motion.div>
           ))}
         </div>

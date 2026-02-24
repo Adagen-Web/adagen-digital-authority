@@ -17,14 +17,12 @@ const Footer = () => {
     <footer className="border-t border-border py-12">
       <div className="container max-w-6xl px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          {/* Logo */}
-          <a
-            href="#"
-            onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-            className="flex items-center gap-2"
-          >
-            <span className="text-primary font-bold text-xl tracking-tight">ada</span>
-            <span className="font-bold text-xl tracking-tight text-foreground">gen</span>
+          <a href="/">
+            <img
+              src="./logo-adagen.png"
+              alt="Adagen"
+              className="w-48 my-2 h-auto object-contain"
+            />
           </a>
 
           {/* Nav */}
@@ -43,7 +41,8 @@ const Footer = () => {
 
         <div className="mt-8 pt-6 border-t border-border text-center">
           <p className="text-muted-foreground text-xs">
-            © {new Date().getFullYear()} Adagen Soluções Web. Todos os direitos reservados.
+            © {new Date().getFullYear()} Adagen Soluções Web. Todos os direitos
+            reservados.
           </p>
         </div>
       </div>

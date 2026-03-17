@@ -1,35 +1,56 @@
 import { motion } from "framer-motion";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
-import project4 from "@/assets/project-4.jpg";
+import wolk from "@/assets/projetos-adagen/wolk.png";
+import lazu from "@/assets/projetos-adagen/lazu.png";
+import fernanda from "@/assets/projetos-adagen/fernanda-dermato.png";
+import quartiero from "@/assets/projetos-adagen/quartiero.png";
+import infoCerto from "@/assets/projetos-adagen/info-certo.png";
+import hon from "@/assets/projetos-adagen/hon.png";
+import harduston from "@/assets/projetos-adagen/harduston.png";
 
 const projects = [
   {
-    image: project1,
-    title: "Dashboard Analytics",
+    image: wolk,
+    title: "Wolk Incorporadora",
     category: "Site Institucional",
-    description: "Plataforma de dados com interface moderna e performance otimizada.",
+    description: "Site institucional da Wolk Incorporadora, com informações sobre a empresa, seus projetos, localização, contato e muito mais.",
   },
   {
-    image: project2,
-    title: "Lux E-commerce",
-    category: "E-commerce",
-    description: "Loja virtual premium com catálogo dinâmico e checkout fluído.",
+    image: lazu,
+    title: "Lazu Imóveis ",
+    category: "Site Institucional",
+    description: "Site institucional da Lazu Imóveis, com informações sobre a empresa, seus imóveis, localização, contato e muito mais.",
   },
   {
-    image: project3,
-    title: "SaaS Landing Page",
+    image: fernanda,
+    title: "Fernanda Dermatologia",
     category: "Landing Page",
-    description: "Página de alta conversão com design estratégico e SEO técnico.",
+    description: "Landing Page da Fernanda Dermatologia, com informações sobre a empresa, seus serviços, localização, contato e muito mais.",
   },
   {
-    image: project4,
-    title: "Portal Editorial",
-    category: "Blog / Portal",
-    description: "Blog otimizado para SEO com arquitetura de conteúdo escalável.",
+    image: quartiero,
+    title: "Quartiero Advogados",
+    category: "Site Institucional",
+    description: "Site institucional da Quartiero Advogados, com informações sobre a empresa, seus serviços, localização, contato e muito mais.",
+  },
+  {
+    image: infoCerto,
+    title: "Info Certo",
+    category: "Landing Page",
+    description: "Landing Page da Info Certo, com informações sobre a empresa, seus serviços, localização, contato e muito mais.",
+  },
+  {
+    image: hon,
+    title: "Hon Arquitetura",
+    category: "Site Institucional",
+    description: "Site institucional da Hon Arquitetura, com informações sobre a empresa, seus serviços, localização, contato e muito mais.",
+  },
+  {
+    image: harduston,
+    title: "Harduston",
+    category: "Site Institucional",
+    description: "Site institucional da Harduston, com informações sobre a empresa, seus serviços, localização, contato e muito mais.",
   },
 ];
 

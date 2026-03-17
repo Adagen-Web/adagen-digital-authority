@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { FaWhatsapp } from "react-icons/fa6";
 
 const CTASection = () => {
   return (
@@ -20,8 +21,9 @@ const CTASection = () => {
           <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
             Vamos criar algo que represente o verdadeiro potencial da sua marca.
           </p>
-          <Button variant="hero" size="lg" className="text-base px-10 py-6">
-            Quero transformar minha presença digital
+          <Button onClick={() => window.open("https://api.whatsapp.com/send/?phone=555182083939", "_blank")} variant="hero" size="lg" className="text-base px-10 py-6">
+            <FaWhatsapp />
+            Fale conosco
           </Button>
         </motion.div>
       </div>

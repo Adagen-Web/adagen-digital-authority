@@ -39,8 +39,8 @@ const Navbar = () => {
         {/* Logo */}
         <a href="/">
           <img
-            src="./logo-adagen.png"
-            alt="Adagen"
+            src="./logotipo-adagen.png"
+            alt="Adogen"
             className="w-48 h-auto object-contain"
           />
         </a>

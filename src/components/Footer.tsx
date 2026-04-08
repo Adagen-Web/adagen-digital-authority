@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <a href="/">
             <img
-              src="./logo-adagen.png"
+              src="./logotipo-adagen.png"
               alt="Adagen"
               className="w-48 my-2 h-auto object-contain"
             />

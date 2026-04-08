@@ -1,21 +1,21 @@
 import { motion } from "framer-motion";
-import teamMateus from "@/assets/team-mateus-green.png";
+import teamMateus from "@/assets/mateus-black.jpg";
 import teamAlini from "@/assets/team-alini.jpeg";
 
 const team = [
   {
-    name: "Mateus Paulart",
-    role: "Desenvolvedor",
+    name: "Alini Ross",
+    role: "Direção Estratégica e Experiência Digital",
     description:
-      "Especialista em desenvolvimento web com foco em performance, arquitetura escalável e experiências modernas.",
-    image: teamMateus,
+      "Conduz a direção estratégica da Adagen, alinhando projetos e experiência digital com propósito e resultado. Participa da construção dos layouts, garantindo que cada projeto traduza estratégia, estética e identidade.",
+    image: teamAlini,
   },
   {
-    name: "Alini Ross",
-    role: "Gestão e Organização",
+    name: "Mateus Paulart",
+    role: "Desenvolvedor Full Stack",
     description:
-      "Responsável pela gestão estratégica, organização de processos e alinhamento de projetos.",
-    image: teamAlini,
+      "Especialista em desenvolvimento web com foco em performance, arquitetura escalável e experiências modernas. Experiência com as melhores tecnologias para criar soluções web de alta qualidade.",
+    image: teamMateus,
   },
 ];
 
